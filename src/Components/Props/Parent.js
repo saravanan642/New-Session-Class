@@ -1,9 +1,10 @@
 
 
-const Parent = () => {
+const Parent = (Props) => {
   return (
     <div>
-      <p>nshbu</p>
+      <p>  Name -  {Props.name }</p>
+      <p> Age - {Props.age} </p>
     </div>
   )
 }

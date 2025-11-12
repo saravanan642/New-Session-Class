@@ -1,10 +1,12 @@
-import Parent from "./Components/Props/Parent";
+import Child from "./Components/Props/Child";
+
 
 
 function App() {
   return (
     <div className="App">
-      <Parent />
+      
+      <Child />
     </div>
   );
 }
