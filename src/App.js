@@ -1,8 +1,8 @@
-import Child from "./Components/Props/Child";
+import Home from "./Components/Props/Home"
 function App() {
   return (
     <div className="App">
-      <Child />
+      <Home/>
     </div>
   );
 }

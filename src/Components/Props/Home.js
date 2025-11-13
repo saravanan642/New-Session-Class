@@ -8,7 +8,10 @@ const Child = ({Deatils}) => {
       <Parent name={"saravana"} age= {"20"}/>
       <p> { Deatils?.name ?? ""}</p>
       <p>{ Deatils?.age || ""}</p>
-      <Subchild marks ={"67"}/>
+      <div>
+          <Subchild marks ={"67"}/> 
+      </div>
+    
     </div>
   )
 }
