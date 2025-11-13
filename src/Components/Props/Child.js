@@ -1,4 +1,5 @@
 import Parent from "./Parent"
+import Subchild from "./Subchild"
 
 
 const Child = ({Deatils}) => {
@@ -7,6 +8,7 @@ const Child = ({Deatils}) => {
       <Parent name={"saravana"} age= {"20"}/>
       <p> { Deatils?.name ?? ""}</p>
       <p>{ Deatils?.age || ""}</p>
+      <Subchild marks ={"67"}/>
     </div>
   )
 }
