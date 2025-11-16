@@ -2,6 +2,7 @@ import Array from "./Array"
 import Parent from "./Parent"
 import String from "./String"
 import SubChild from './Subchild'
+import Boolean from "./Boolean"
 
 
 
@@ -22,10 +23,12 @@ const Child = ({ Deatils }) => {
         }} />
       </div>
 
-<div>
- <Array players={["Virat", "Rohit", "Hardik"]} />
-
-</div>
+      <div>
+        <Array players={["Virat", "Rohit", "Hardik"]} />
+      </div>
+      <div>
+        <Boolean />
+      </div>
     </div>
   )
 }
