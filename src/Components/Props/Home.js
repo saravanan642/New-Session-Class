@@ -1,3 +1,4 @@
+import Array from "./Array"
 import Parent from "./Parent"
 import String from "./String"
 import SubChild from './Subchild'
@@ -19,11 +20,12 @@ const Child = ({ Deatils }) => {
           2: "chennai",
           3: "kolkata"
         }} />
-
-
-
       </div>
 
+<div>
+ <Array players={["Virat", "Rohit", "Hardik"]} />
+
+</div>
     </div>
   )
 }
