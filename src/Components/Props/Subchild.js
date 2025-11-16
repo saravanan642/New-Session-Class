@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Subchild = ( props) => {
+const Subchild = (props) => {
   return (
     <div>
       <div>
-        <p> {props.marks} ijijivj</p>
+        <p> {props?.marks} ijijivj</p>
       </div>
     </div>
   )
