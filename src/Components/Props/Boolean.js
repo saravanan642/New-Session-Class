@@ -1,7 +1,7 @@
 import React from 'react'
 
 const BooleanExample = () => {
-  const isOnline = false;  // or false
+  const isOnline = false;  
 
   return (
     <div>

@@ -3,7 +3,7 @@ import Parent from "./Parent"
 import String from "./String"
 import SubChild from './Subchild'
 import Boolean from "./Boolean"
-
+import Sample from "./Sample"
 
 
 const Child = ({ Deatils }) => {
@@ -28,6 +28,18 @@ const Child = ({ Deatils }) => {
       </div>
       <div>
         <Boolean />
+      </div>
+
+      <div>
+        <Sample employee = {{
+          Named : "saravanan",
+          Sallary : "10000",
+          Month : "May"
+          
+         
+        }}/>
+           
+        
       </div>
     </div>
   )

@@ -6,10 +6,8 @@ const String = ({Team}) => {
         {Object.values(Team).map((t, i) => (
         <p key={i}>Team : {t}</p>
       ))}
-    
-
     <div>
-        
+              
     </div>
     </div>
   )
