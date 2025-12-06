@@ -4,11 +4,12 @@ import String from "./String"
 import SubChild from './Subchild'
 import Boolean from "./Boolean"
 import Sample from "./Sample"
+import Arrayofobject from "./Arrayofobject"
 
 
 const Child = ({ Deatils }) => {
   return (
-    <div className=" bg-blue-900">
+    <div >
       <Parent name={"saravana"} age={"20"} />
       <p> {Deatils?.name ?? ""}</p>
       <p>{Deatils?.age || ""}</p>
@@ -31,16 +32,23 @@ const Child = ({ Deatils }) => {
       </div>
 
       <div>
-        <Sample employee = {{
-          Named : "saravanan",
-          Sallary : "10000",
-          Month : "May"
-          
-         
-        }}/>
-           
-        
+        <Sample employee={{
+          Named: "saravanan",
+          Sallary: "10000",
+          Month: "May"
+        }} />
       </div>
+
+      <div>
+        <Arrayofobject Students={[
+          { Std1: "kalai", Age: 40, Sallary: "4k" },
+          { Std2: "Ram", Age2: 22, Sallary2: "3k" },
+          { Std3: "pavin ", Age: 33, Sallary: "5k" }
+        ]}
+        />
+      </div>
+
+
     </div>
   )
 }
