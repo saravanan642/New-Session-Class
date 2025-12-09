@@ -10,6 +10,8 @@ const Parent = (Props) => {
       <div>
         <Buttonfunction  Click = {()=>{alert ( "Button clicked ")} }/>
           <button >Click me</button>
+           
+           
       </div>
 
 
